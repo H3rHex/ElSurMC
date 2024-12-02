@@ -1,0 +1,25 @@
+
+["RTP Gameplay Settings"]
+	#This defines the cooldown seconds after the RTP command is used
+	Cooldown = 30
+	#This defines the time it takes to teleport after using the RTP command.
+	"Teleportation Time" = 5
+	#Minimum X Coordinate for the RTP radius
+	"Minimum X" = 1000.0
+	#Maximum X Coordinate for the RTP radius
+	"Maximum X" = 3000.0
+	#Minimum Z Coordinate for the RTP radius
+	"Minimum Z" = 1000.0
+	#Maximum Z Coordinate for the RTP radius
+	"Maximum Z" = 3000.0
+
+["RTP Messages Settings"]
+	#This defines the prefix of every message sent by RTP.
+	Prefix = "§2§lRTP "
+	#This defines the message sent by RTP when a player uses the RTP command.
+	"Message on RTP used" = "§aTeleporting in %tptime% seconds!"
+	#This defines the message sent by RTP when a player is teleported after using the RTP command.
+	"Message on RTP finished" = "§aTeleported!"
+	#This defines the error message sent by RTP when a player tries to use the RTP command while in cooldown.
+	"Error RTP while in Cooldown" = "§cYou're still in cooldown! "
+

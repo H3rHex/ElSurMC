@@ -1,0 +1,47 @@
+
+["TPA Gameplay Settings"]
+	#This defines if /back is enabled (true) or disabled (false)
+	"/back Enabled?" = false
+	#This is the time (in seconds) it takes for TPA commands to be available again after use
+	"Cooldown Time" = 0
+	#This is the time it takes for the teleportation after a TPA request is accepted
+	"Teleportation Time" = 2.5
+
+["TPA Messages Settings"]
+	#This is the prefix that is added before every message.
+	"Message Prefix" = "§c§l<<§6§lTPA§c§l>>§r "
+	#This is the message that is sent when a teleport request is sent
+	"Message on TPA Sent" = "§6You sent a teleport request!"
+	#This is the message that is sent when a teleport request is received. Use %tpauser% to insert the name of the player who sent the TPA request
+	"Message on TPA Received" = "§6You received a teleport request from %tpauser%! To accept it, type /tpaccept"
+	#This is the message that is sent TO THE PLAYER WHO ACCEPTED when a TPA request is accepted
+	"Message to Accepter on TPA Accepted" = "§6You accepted the teleport request!"
+	#This is the message that is sent TO THE PLAYER WHO SENT  THE TPA REQUEST when it's accepted. Use %tptime% to display the time it will take to teleport the player
+	"Message to Sender on TPA Accepted" = "§6Teleporting in %tptime% seconds..."
+	#This is the message that is sent when the teleportation has finished happening
+	"Message on Teleport Finished" = "§6Teleported!"
+	#This is the message that is sent when a TPAHERE request is sent
+	"Message on TPAHERE sent" = "§6You sent a teleport here request!"
+	#This is the message that is sent when a TPAHERE request is received
+	"Message on TPAHERE Received" = "§6You received a teleport here request from %tpauser%! To accept it, type /tpaccept"
+	#This is the message that will be sent when a player dies IF /BACK IS ENABLED. Use %x%, %y%, %z% to display the coordinates the player died at
+	"Message on death /back Enabled" = "§6You died at %x% %y% %z%! Use /back to go back to your death location!"
+	#This is the message that will be sent when a player dies IF /BACK IS DISABLED. Use %x%, %y%, %z% to display the coordinates the player died at
+	"Message on death /back Disabled" = "§6You died at %x% %y% %z%!"
+	#This is the message that is sent when a player ENABLES TPAToggle
+	"Message on TPAToggle Enabled" = "§6You are now automatically §laccepting§r§6 teleport requests"
+	#This is the message that is sent when a player DISABLES TPAToggle
+	"Message on TPAToggle Disabled" = "§6You are no longer automatically §laccepting §r§6teleport requests."
+	#This is the error message that is sent when a player tries to teleport to himself
+	"Error message on self TPA" = "§cYou can't teleport to yourself!"
+	#This is the Error message that is sent when a player tries to accept his own teleport request
+	"Error message on self TPA Accept" = "§cYou can't accept your own teleport request!"
+	#This is the Error message that is sent when a player tries to accept an invalid teleport request
+	"Error message on TPA Invalid" = "§cYou don't have a teleport request!"
+	#This is the Error message that is sent when a player tries to use /back without a back position
+	"Error message on /back invalid" = "§cYou don't have a back location!"
+	#This is the Error message that is sent when a player tries to use /back with no permission
+	"Error message on /back Disabled" = "§cYou don't have permission to use this command."
+	#This is the message that is sent when a player tries to send a teleport request while in cooldown.
+	"Error message on TPA in cooldown" = "§cYou're still in cooldown!"
+

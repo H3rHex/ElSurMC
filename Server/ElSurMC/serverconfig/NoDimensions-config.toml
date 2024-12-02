@@ -1,0 +1,7 @@
+
+["No Dimensions Settings"]
+	#Defines if the Nether dimension is accessible (true) or not (false).
+	"Nether Enabled" = false
+	#Defines if the End dimension is accessible (true) or not (false).
+	"End Enabled" = false
+

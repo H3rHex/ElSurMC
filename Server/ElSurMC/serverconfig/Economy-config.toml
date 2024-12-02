@@ -1,0 +1,19 @@
+
+["Economy Gameplay Settings"]
+	#This defines the balance new players start with.
+	"Starting Balance" = 0.0
+
+["Economy Messages Settings"]
+	#This defines the Prefix that is sent before every message by Economy.
+	Prefix = "§2§lEconomy"
+	#Message sent when selling something.
+	"Sell Message" = "§aYou sold %itemsamount%x %itemsname% for $%moneyamount%!"
+	#Message sent when buying something.
+	"Buy Message" = "§aYou bought %itemsamount%x %itemsname% for $%moneyamount%!"
+	#Message sent when paying a player.
+	"Pay Message" = "§aYou paid $%moneyamount% to %playername%."
+	#Error Message when a player tries selling air
+	"Error on sell AIR" = "§cYou can't sell air!"
+	#Error Message when a player tries spending more money than he has.
+	"Error on insufficient Balance" = "§cYou don't have enough money!"
+
